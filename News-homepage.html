@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | News Homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/News-homepage.css" media="all">
+  <script src="./assets/News-homepage.js" defer></script>
+  <meta name="description" content="Author: Federico Borzani, News Homepage">
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <img class="logo" src="./assets/images/logo.svg" alt="news logo">
+      <img class="menu" src="./assets/images/icon-menu.svg" alt="hamburguer menu">
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+      <nav class="modal">
+        <img class="closeBtn" src="./assets/images/icon-menu-close.svg" alt="close button">
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <article class="article">
+      <picture>
+        <source media="(width<425px)" srcset="./assets/images/image-web-3-mobile.jpg">
+        <source media="(width>426px)" srcset="./assets/images/image-web-3-desktop.jpg">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="article image">
+      </picture>
+      <div class="text">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+        But is it really fulfilling its promise?</p>
+        <button>Read more</button>
+      </div>
+    </article>
+    <aside class="aside">
+      <h2>New</h2>
+      <h4>Hydrogen VS Electric Cars</h4>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+      <h4>The Downsides of AI Artistry</h4>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+      <h4>Is VC Funding Drying Up?</h4>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </aside>
+    <section class="section">
+      <div class="retro">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="retro pc image">
+        <div class="text">
+          <h3>01</h3>
+          <h5>Reviving Retro PCs</h5>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="laptop">
+        <img src="./assets/images/image-top-laptops.jpg" alt="top laptop image">
+        <div class="text">
+          <h3>02</h3>
+          <h5>Top 10 Laptops of 2022</h5>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="gaming">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth image">
+        <div class="text">
+          <h3>03</h3>
+          <h5>The Growth of Gaming</h5>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/eserengo/" target="_blank">Federico Borzani</a>.
+  </footer>
+</body>
+</html>
